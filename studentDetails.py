@@ -1,5 +1,5 @@
 import sys 
-if (sys.argv) == 5:
+if (sys.argv) == 4:
     script_name = sys.argv[0]
     student_name = sys.argv[1]
     student_USN = sys.argv[2]
