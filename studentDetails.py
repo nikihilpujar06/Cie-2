@@ -1,5 +1,6 @@
-import sys 
-if (sys.argv) == 4:
+import sys
+
+if len(sys.argv) == 5:
     script_name = sys.argv[0]
     student_name = sys.argv[1]
     student_USN = sys.argv[2]
@@ -7,13 +8,14 @@ if (sys.argv) == 4:
     student_semester = sys.argv[4]
     print(len(sys.argv))
     print("User Input")
-else: 
+else:
     script_name = sys.argv[0]
     student_name = "Nikhil"
     student_USN = "01fe24bca004"
     student_department = "BCA"
     student_semester = 3
     print("Default values")
+    print(len(sys.argv))
 
 print("----- Student Details -----")
 print(f"\nStudent Name : {student_name}")
